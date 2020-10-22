@@ -41,3 +41,5 @@ class CalendarsController < ApplicationController
 
   end
 end
+
+wdays[@todays_date.wday+1]
